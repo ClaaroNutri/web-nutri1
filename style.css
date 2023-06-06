@@ -1,0 +1,188 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navbar-brand, .nav-link {
+    color:white;
+}
+.navbar a{
+    font-size: larger;
+    font-weight: 300;
+}
+.nav-link{
+    margin-right: 35px;
+}
+.navbar-brand:hover, .nav-link:hover{
+    color: crimson;
+    font-size: larger;
+} 
+.sobre{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:70px;
+    margin-bottom: 80px;
+}
+.sobre p{
+    letter-spacing: 0.1rem;
+    text-align: justify;
+    font-weight: 500;
+}
+.img{
+    border-radius: 25px;
+    z-index: 3;
+    box-shadow: 1px 3px 13px #b1b1b1;
+}
+
+.imc{
+    width:250px ;
+    height: 60px;
+    background-color:black;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 80px;
+    
+ }
+ .botones{display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+
+ }
+ .botones a {
+    text-decoration: none;
+    color: white;
+ }
+ .botones a:hover {
+    background-color: white;
+    color:black;
+ }
+ .contenedor-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    gap:65px;
+    margin-bottom: 150px;
+ }
+ .what{
+    position:fixed;
+    left:30px;
+    top:500px;
+ }
+ .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 3px 13px #b1b1b1;
+ }  
+ .card:hover{transform: scale(1.1);
+    transition: 3s;
+ }
+
+ .card a{
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    font-weight: 600;
+ }
+
+ .contenedor-linea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+ }
+
+.linea{
+    width: 60%;  
+}
+ form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 25px;
+
+ }
+
+ form input, form textarea{
+    width:30% ;
+    border-radius: 4px;
+    border: 1px solid #b1b1b1;
+ }
+
+ 
+form input:hover, form textarea:hover{
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid crimson;
+}
+
+.footer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: black;
+    height: 80px;
+    gap:70px;
+}
+
+/*------------------------IMC-------------------*/
+.titulo_imc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.imc-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:25px
+}
+
+.imagen{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inicio{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+.inicio:hover{
+color: crimson;
+font-size: 20px;
+}
+/*---------------------CINTURA-----------*/
+.cintura{
+    margin-bottom: 40px;
+}
+.indicaciones{   
+    text-align: justify;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+
+}
