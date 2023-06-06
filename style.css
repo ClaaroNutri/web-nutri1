@@ -29,6 +29,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     gap:70px;
     margin-bottom: 80px;
@@ -57,6 +58,7 @@
  .botones{display:flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 45px;
 
  }
@@ -72,6 +74,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     height: 200px;
     gap:65px;
     margin-bottom: 150px;
@@ -85,6 +88,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     box-shadow: 1px 3px 13px #b1b1b1;
  }  
  .card:hover{transform: scale(1.1);
@@ -113,6 +117,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     margin-top: 30px;
     margin-bottom: 30px;
     gap: 25px;
@@ -137,6 +142,7 @@ form input:hover, form textarea:hover{
     display: flex;
     justify-content:center;
     align-items: center;
+    flex-wrap: wrap;
     background-color: black;
     height: 80px;
     gap:70px;
