@@ -163,7 +163,9 @@ form input:hover, form textarea:hover{
     justify-content: center;
     gap:25px
 }
-
+.button-imc{
+    width: 50%;
+}
 .imagen{
     margin-top: 50px;
     margin-bottom: 50px;
@@ -186,9 +188,26 @@ font-size: 20px;
 .cintura{
     margin-bottom: 40px;
 }
-.indicaciones{   
+.titulo_cint{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo_cint p .indicaciones{
     text-align: justify;
     line-height: 2rem;
     letter-spacing: 0.1rem;
+}
 
+.tabla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.table{
+    width: 60%;
+    
 }
