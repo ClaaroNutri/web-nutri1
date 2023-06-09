@@ -88,6 +88,7 @@
     left:30px;
     top:500px;
  }
+ 
  .card{
     display: flex;
     justify-content: center;
@@ -250,7 +251,5 @@ font-size: 20px;
     .portada{
         width: 300px
     }
-    .inicio{
-    margin-top:420px ;
-}
+    
 }
