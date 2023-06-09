@@ -251,5 +251,7 @@ font-size: 20px;
     .portada{
         width: 300px
     }
-    
+    .form input{        
+        width:100% ;
+    }
 }
