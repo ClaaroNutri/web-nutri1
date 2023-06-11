@@ -3,7 +3,7 @@
     padding:0;
     box-sizing:border-box;
     scroll-behavior: smooth;
-    
+    user-select: none;
 }
 .container{
     max-width: 1200px;
@@ -77,12 +77,13 @@
  }
  .contenedor-card{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     gap:65px;
     margin-bottom: 50px;
  }
+
  .what{
     position:fixed;
     left:30px;
@@ -200,6 +201,11 @@ font-size: 20px;
     justify-content: center;
     align-items: center;
 }
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .titulo_cint p .indicaciones{
     text-align: justify;
     line-height: 2rem;
@@ -248,10 +254,16 @@ font-size: 20px;
     .botones{
         gap:10px;
     }
-    .portada{
-        width: 300px
-    }
+    
     .form input{        
         width:100% ;
+    }
+    .imagen{
+        height: 200%;
+        width: 200%;
+        justify-content:flex-start;
+    }
+    .contac, .sevrs{
+        margin-right: 40px;
     }
 }
